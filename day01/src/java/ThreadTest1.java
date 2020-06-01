@@ -17,8 +17,6 @@ package java;
  * 联系：public class Thread implements Runnable
  * 相同点：两种方式都需要重写run(),将线程要执行的逻辑声明在run()中。
  *
- * @author shkstart
- * @create 2019-02-13 下午 4:34
  */
 //1. 创建一个实现了Runnable接口的类
 class MThread implements Runnable{
@@ -26,7 +24,7 @@ class MThread implements Runnable{
     //2. 实现类去实现Runnable中的抽象方法：run()
     @Override
     public void run() {
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 10; i++) {
             if(i % 2 == 0){
                 System.out.println(Thread.currentThread().getName() + ":" + i);
             }
@@ -34,8 +32,6 @@ class MThread implements Runnable{
         }
     }
 }
-
-
 public class ThreadTest1 {
     public static void main(String[] args) {
         //3. 创建实现类的对象

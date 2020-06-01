@@ -6,13 +6,12 @@ package java;
  *
  * 存在线程的安全问题，待解决。
  *
- * @author shkstart
- * @create 2019-02-13 下午 4:20
+ * @author
+ * @create
  */
 class Window extends Thread{
 
-
-    private static int ticket = 100;
+    private static int ticket = 10;
     @Override
     public void run() {
 
@@ -36,7 +35,6 @@ public class WindowTest {
         Window t1 = new Window();
         Window t2 = new Window();
         Window t3 = new Window();
-
 
         t1.setName("窗口1");
         t2.setName("窗口2");

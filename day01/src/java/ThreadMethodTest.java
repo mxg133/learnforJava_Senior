@@ -16,7 +16,7 @@ package java;
  * 10. isAlive():判断当前线程是否存活
  *
  *
- * 线程的优先级：
+ * 线程的优先级：(优先级高 不一定 被先执行【一定的概率高】)
  * 1.
  * MAX_PRIORITY：10
  * MIN _PRIORITY：1
@@ -29,8 +29,6 @@ package java;
  *   被执行。并不意味着只有当高优先级的线程执行完以后，低优先级的线程才执行。
  *
  *
- * @author shkstart
- * @create 2019-02-13 下午 2:26
  */
 class HelloThread extends Thread{
     @Override
@@ -43,24 +41,17 @@ class HelloThread extends Thread{
 //                } catch (InterruptedException e) {
 //                    e.printStackTrace();
 //                }
-
                 System.out.println(Thread.currentThread().getName() + ":" + Thread.currentThread().getPriority() + ":" + i);
             }
-
 //            if(i % 20 == 0){
 //                yield();
 //            }
-
         }
-
     }
-
     public HelloThread(String name){
         super(name);
     }
 }
-
-
 public class ThreadMethodTest {
     public static void main(String[] args) {
 
