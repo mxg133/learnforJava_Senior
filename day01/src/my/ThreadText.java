@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 
- class MyThread extends Thread {
+ class MyThread implements Runnable {
     @Override
     public void run() {
         for (int i = 0; i < 10; i++) {
@@ -24,13 +24,13 @@ import java.util.Arrays;
 public class ThreadText {
 
     public static void main(String[] args) {
-        MyThread t1 = new MyThread();
+        MyThread t2 = new MyThread();
+
+
+        Thread t1 = new Thread(t2);
         t1.setName("线程一");
         t1.start();
         Thread.currentThread().setName("主线程");
-        t1.setPriority(Thread.MAX_PRIORITY);
-        Thread.currentThread().setPriority(Thread.MIN_PRIORITY);
-
         for (int i = 0; i < 10; i++) {
             if (i % 2 == 0) {
                 System.out.println(Thread.currentThread().getName() +  i +"  优先级："+ Thread.currentThread().getPriority() + ",");
