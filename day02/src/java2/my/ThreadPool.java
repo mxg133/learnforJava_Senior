@@ -12,7 +12,7 @@ class NumberThread implements Runnable{
 
     @Override
     public void run() {
-        System.out.println(Thread.currentThread().getName() + "小");
+        System.out.println(Thread.currentThread().getName() + "小1");
     }
 }
 
@@ -20,7 +20,7 @@ class NumberThread1 implements Runnable{
 
     @Override
     public void run() {
-        System.out.println(Thread.currentThread().getName() + "大");
+        System.out.println(Thread.currentThread().getName() + "大1");
     }
 }
 
