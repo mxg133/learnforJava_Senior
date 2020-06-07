@@ -4,9 +4,6 @@ import org.junit.Test;
 
 /**
  * String的使用
- *
- * @author shkstart
- * @create 2019 上午 10:26
  */
 public class StringTest {
 
