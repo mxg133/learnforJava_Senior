@@ -13,9 +13,6 @@ import java.util.Date;
  * 2. java.util.Date和子类java.sql.Date
  * 3. SimpleDateFormat
  * 4. Calendar
- *
- * @author shkstart
- * @create 2019 上午 11:35
  */
 public class DateTimeTest {
     /*

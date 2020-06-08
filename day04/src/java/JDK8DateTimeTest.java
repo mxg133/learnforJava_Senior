@@ -10,9 +10,6 @@ import java.util.Date;
 
 /**
  * jdk 8中日期时间API的测试
- *
- * @author shkstart
- * @create 2019 下午 2:44
  */
 public class JDK8DateTimeTest {
 

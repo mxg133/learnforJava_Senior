@@ -2,10 +2,6 @@ package java;
 
 import org.junit.Test;
 
-/**
- * @author shkstart
- * @create 2019 上午 11:23
- */
 public class IDEADebug {
 
     @Test

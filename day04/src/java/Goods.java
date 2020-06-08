@@ -2,8 +2,6 @@ package java;
 
 /**
  * 商品类
- * @author shkstart
- * @create 2019 下午 4:52
  */
 public class Goods implements  Comparable{
 

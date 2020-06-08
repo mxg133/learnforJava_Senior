@@ -10,9 +10,6 @@ import java.math.BigInteger;
  * 1.System
  * 2.Math
  * 3.BigInteger 和 BigDecimal
- *
- * @author shkstart
- * @create 2019 下午 6:23
  */
 public class OtherClassTest {
 
