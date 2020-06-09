@@ -36,8 +36,6 @@ import java.util.Date;
  *
  * 三、Collection接口中的方法的使用
  *
- * @author shkstart
- * @create 2019 下午 4:08
  */
 public class CollectionTest {
 
