@@ -24,9 +24,6 @@ import java.util.Set;
  *     要求：重写的hashCode()和equals()尽可能保持一致性：相等的对象必须具有相等的散列码
  *      重写两个方法的小技巧：对象中用作 equals() 方法比较的 Field，都应该用来计算 hashCode 值。
  *
- *
- * @author shkstart
- * @create 2019 下午 3:40
  */
 public class SetTest {
     /*
