@@ -5,10 +5,6 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author shkstart
- * @create 2019 下午 3:33
- */
 public class ListExer {
     /*
     区分List中remove(int index)和remove(Object obj)

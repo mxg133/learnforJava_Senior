@@ -60,8 +60,6 @@ import java.util.List;
  *  同：三个类都是实现了List接口，存储数据的特点相同：存储有序的、可重复的数据
  *  不同：见上
  *
- *
- *
  *   5. List接口中的常用方法
  */
 public class ListTest {
