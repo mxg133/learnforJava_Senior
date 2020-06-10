@@ -13,8 +13,6 @@ import java.util.Iterator;
  * 默认游标都在集合的第一个元素之前。
  * 3.内部定义了remove(),可以在遍历的时候，删除集合中的元素。此方法不同于集合直接调用remove()
  *
- * @author shkstart
- * @create 2019 上午 10:44
  */
 public class IteratorTest {
 
