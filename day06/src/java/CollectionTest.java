@@ -13,8 +13,6 @@ import java.util.List;
  * 结论：
  * 向Collection接口的实现类的对象中添加数据obj时，要求obj所在类要重写equals().
  *
- * @author shkstart
- * @create 2019 上午 10:04
  */
 public class CollectionTest {
 
