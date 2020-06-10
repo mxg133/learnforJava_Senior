@@ -6,14 +6,10 @@ import java.util.Comparator;
 import java.util.Iterator;
 import java.util.TreeSet;
 
-/**
- * @author shkstart
- * @create 2019 下午 4:59
- */
 public class TreeSetTest {
 
     /*
-    1.向TreeSet中添加的数据，要求是相同类的对象。
+    1.向TreeSet中添加的数据，要求是【相同类】的对象。
     2.两种排序方式：自然排序（实现Comparable接口） 和 定制排序（Comparator）
 
 
