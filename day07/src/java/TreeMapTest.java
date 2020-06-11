@@ -4,10 +4,6 @@ import org.junit.Test;
 
 import java.util.*;
 
-/**
- * @author shkstart
- * @create 2019 下午 3:46
- */
 public class TreeMapTest {
 
     //向TreeMap中添加key-value，要求key必须是由同一个类创建的对象

@@ -1,4 +1,4 @@
-package java;
+package my2;
 
 public class User implements Comparable{
     private String name;
