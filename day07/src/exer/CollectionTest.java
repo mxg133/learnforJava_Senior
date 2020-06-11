@@ -7,10 +7,6 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.List;
 
-/**
- * @author shkstart
- * @create 2019 上午 9:36
- */
 public class CollectionTest {
     @Test
     public void test1(){
