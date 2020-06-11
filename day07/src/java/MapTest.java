@@ -100,9 +100,6 @@ import java.util.*;
  * 长度：size()
  * 遍历：keySet() / values() / entrySet()
  *
- *
- * @author shkstart
- * @create 2019 上午 11:15
  */
 public class MapTest {
 
