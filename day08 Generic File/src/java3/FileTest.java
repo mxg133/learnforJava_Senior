@@ -15,11 +15,6 @@ import java.util.Date;
  *    并未涉及到写入或读取文件内容的操作。如果需要读取或写入文件内容，必须使用IO流来完成。
  * 4. 后续File类的对象常会作为参数传递到流的构造器中，指明读取或写入的"终点".
  *
- *
- *
- *
- * @author shkstart
- * @create 2019 下午 4:05
  */
 public class FileTest {
     /*
