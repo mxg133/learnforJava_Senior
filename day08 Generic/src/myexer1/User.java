@@ -1,9 +1,10 @@
-package exer1;
+package myexer1;
+
+import java.util.Objects;
 
 /**
- * 定义一个 User 类：
- 该类包含：private成员变量（int类型） id，age；（String 类型）name。
-
+ * @author 孟享广
+ * @create 2020-06-12 4:26 下午
  */
 public class User {
 
@@ -59,19 +60,14 @@ public class User {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         User user = (User) o;
-
-        if (id != user.id) return false;
-        if (age != user.age) return false;
-        return name != null ? name.equals(user.name) : user.name == null;
+        return id == user.id &&
+                age == user.age &&
+                Objects.equals(name, user.name);
     }
 
     @Override
     public int hashCode() {
-        int result = id;
-        result = 31 * result + age;
-        result = 31 * result + (name != null ? name.hashCode() : 0);
-        return result;
+        return Objects.hash(id, age, name);
     }
 }
