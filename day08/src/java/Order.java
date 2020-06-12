@@ -5,8 +5,6 @@ import java.util.List;
 
 /**
  * 自定义泛型类
- * @author shkstart
- * @create 2019 上午 11:05
  */
 public class Order<T> {
 
