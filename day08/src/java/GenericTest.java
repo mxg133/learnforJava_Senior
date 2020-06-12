@@ -20,8 +20,6 @@ import java.util.*;
  *
  * 3.如何自定义泛型结构：泛型类、泛型接口；泛型方法。见 GenericTest1.java
  *
- * @author shkstart
- * @create 2019 上午 9:59
  */
 public class GenericTest {
 
