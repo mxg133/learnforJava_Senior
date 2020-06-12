@@ -5,10 +5,6 @@ import org.junit.Test;
 import java.io.File;
 import java.io.IOException;
 
-/**
- * @author shkstart
- * @create 2019 下午 4:56
- */
 public class FileDemo {
 
     @Test
