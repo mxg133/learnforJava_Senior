@@ -3,8 +3,6 @@ package java1;
 import java.util.List;
 
 /**
- * @author shkstart
- * @create 2019 上午 11:50
  *
  * DAO:data(base) access object
  */

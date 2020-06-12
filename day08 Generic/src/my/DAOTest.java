@@ -1,21 +1,23 @@
-package java1;
+package my;
 
 import org.junit.Test;
 
 import java.util.List;
 
-
+/**
+ * @author 孟享广
+ * @create 2020-06-12 3:05 下午
+ */
 public class DAOTest {
 
     @Test
     public void test1(){
         CustomerDAO dao1 = new CustomerDAO();
-
         dao1.add(new Customer());
-        List<Customer> list = dao1.getForList(10);
+
+        List<Customer> list = dao1.getFORlist(10);
 
 
-        StudentDAO dao2 = new StudentDAO();
-        Student student = dao2.getIndex(1);
+
     }
 }
