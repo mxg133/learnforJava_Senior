@@ -14,7 +14,6 @@ import java.util.Date;
  * 3. File类中涉及到关于文件或文件目录的创建、删除、重命名、修改时间、文件大小等方法，
  *    并未涉及到写入或读取文件内容的操作。如果需要读取或写入文件内容，必须使用IO流来完成。
  * 4. 后续File类的对象常会作为参数传递到流的构造器中，指明读取或写入的"终点".
- *
  */
 public class FileTest {
     /*
@@ -105,6 +104,7 @@ public File[] listFiles() ：获取指定目录下的所有文件或者文件目
     public boolean renameTo(File dest):把文件重命名为指定的文件路径
      比如：file1.renameTo(file2)为例：
         要想保证返回true,需要file1在硬盘中是存在的，且file2不能在硬盘中存在。
+     剪切并重命名 功能
      */
     @Test
     public void test4(){
@@ -118,7 +118,7 @@ public File[] listFiles() ：获取指定目录下的所有文件或者文件目
     /*
 public boolean isDirectory()：判断是否是文件目录
 public boolean isFile() ：判断是否是文件
-public boolean exists() ：判断是否存在
+public boolean exists() ：判断是否存在 硬盘！！*
 public boolean canRead() ：判断是否可读
 public boolean canWrite() ：判断是否可写
 public boolean isHidden() ：判断是否隐藏
