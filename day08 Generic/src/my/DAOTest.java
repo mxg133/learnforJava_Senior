@@ -18,6 +18,12 @@ public class DAOTest {
         List<Customer> list = dao1.getFORlist(10);
 
 
+        Student student = new Student();
+
+        StudentDAO studentDAO = new StudentDAO();
+        studentDAO.add(new Student());
+
+        List<Student> foRlist = studentDAO.getFORlist(1);
 
     }
 }

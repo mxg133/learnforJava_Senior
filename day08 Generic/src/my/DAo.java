@@ -26,4 +26,8 @@ public class DAo<T> {
     public List<T> getFORlist(int index){
         return null;
     }
+
+    public <E> E getValue(){
+        return null;
+    }
 }
