@@ -25,11 +25,6 @@ import java.io.*;
  GBK：中国的中文编码表升级，融合了更多的中文文字符号。最多两个字节编码
  Unicode：国际标准码，融合了目前人类使用的所有字符。为每个字符分配唯一的字符码。所有的文字都用两个字节来表示。
  UTF-8：变长的编码方式，可用1-4个字节来表示一个字符。
-
- *
- *
- * @author shkstart
- * @create 2019 下午 4:25
  */
 public class InputStreamReaderTest {
 
