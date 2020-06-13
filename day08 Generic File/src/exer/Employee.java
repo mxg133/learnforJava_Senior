@@ -9,7 +9,7 @@ package exer;
  * @author shkstart
  * @create 2019 上午 10:22
  */
-public class Employee implements Comparable<Employee>{
+public class Employee implements Comparable<Employee>{//567p
     private String name;
     private int age;
     private MyDate birthday;
