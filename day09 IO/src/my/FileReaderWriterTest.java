@@ -93,16 +93,20 @@ public class FileReaderWriterTest {
             e.printStackTrace();
         } finally {
 
-
-                fw.close();
-
-
-
+            fw.close();
             fr.close();
-
         }
 
+    }@Test
+    public void test5() throws IOException {
 
+        FileReader fr = new FileReader(
+                new File("爱情与友情.jpg")
+        );
+
+        FileWriter fw = new FileWriter(
+                new File("爱情与友情11.jpg")
+        );
 
 
 
