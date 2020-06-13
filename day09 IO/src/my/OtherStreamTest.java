@@ -2,9 +2,8 @@ package my;
 
 import org.junit.Test;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import javax.xml.crypto.dsig.dom.DOMSignContext;
+import java.io.*;
 
 /**
  * @author 孟享广
@@ -43,5 +42,34 @@ public class OtherStreamTest {
             }
 
         }
+    }
+    @Test
+    public void test5() throws IOException {
+//        DataOutputStream dos = new DataOutputStream(
+//                new FileOutputStream("data1.txt")
+//        );
+        DataOutputStream dos = new DataOutputStream(new FileOutputStream("data1.txt"));
+        dos.writeUTF("王圣唯");
+        dos.flush();
+        dos.writeInt(23);
+        dos.flush();
+        dos.writeBoolean(true);
+        dos.flush();
+
+        dos.close();
+
+    }
+
+    @Test
+    public void test6() throws IOException {
+        DataInputStream dis = new DataInputStream(
+                new FileInputStream("data1.txt")
+        );
+
+        String s = dis.readUTF();
+        int i = dis.readInt();
+        boolean b = dis.readBoolean();
+
+
     }
 }
