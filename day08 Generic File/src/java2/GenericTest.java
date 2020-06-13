@@ -8,12 +8,8 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- *
  * 1. 泛型在继承方面的体现
- *
- *
  * 2. 通配符的使用
- *
  */
 public class GenericTest {
 
