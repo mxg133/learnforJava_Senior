@@ -9,9 +9,6 @@ import java.io.*;
  * 1.标准的输入、输出流
  * 2.打印流
  * 3.数据流
- *
- * @author shkstart
- * @create 2019 下午 6:11
  */
 public class OtherStreamTest {
 
@@ -80,6 +77,8 @@ public class OtherStreamTest {
             FileOutputStream fos = new FileOutputStream(new File("D:\\IO\\text.txt"));
             // 创建打印输出流,设置为自动刷新模式(写入换行符或字节 '\n' 时都会刷新输出缓冲区)
             ps = new PrintStream(fos, true);
+
+
             if (ps != null) {// 把标准输出流(控制台输出)改成文件
                 System.setOut(ps);
             }

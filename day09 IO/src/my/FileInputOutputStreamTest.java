@@ -114,7 +114,7 @@ public void test3(){
 
     long l = e - s;
 
-    DateTimeFormatter formatter = DateTimeFormatter.ISO_LOCAL_DATE_TIME;//你们不记得了吧 哈啊哈
+    DateTimeFormatter formatter = DateTimeFormatter.ISO_LOCAL_DATE_TIME;
     String s1 = formatter.format(LocalDateTime.now());
 
     System.out.println(l);
