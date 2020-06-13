@@ -3,7 +3,6 @@ package java1;
 import java.util.List;
 
 /**
- *
  * DAO:data(base) access object
  */
 public class DAO<T> {//表的共性操作的DAO
