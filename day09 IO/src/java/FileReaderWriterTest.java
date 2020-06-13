@@ -18,10 +18,6 @@ import java.io.*;
  * Reader          FileReader (read(char[] cbuf))                 BufferedReader (read(char[] cbuf) / readLine())
  * Writer          FileWriter (write(char[] cbuf,0,len)           BufferedWriter (write(char[] cbuf,0,len) / flush()
  *
- *
- *
- * @author shkstart
- * @create 2019 上午 10:40
  */
 public class FileReaderWriterTest {
 
