@@ -11,10 +11,6 @@ import java.io.*;
  * 1. 对于文本文件(.txt,.java,.c,.cpp)，使用字符流处理
  * 2. 对于非文本文件(.jpg,.mp3,.mp4,.avi,.doc,.ppt,...)，使用字节流处理
  *
- *
- *
- * @author shkstart
- * @create 2019 下午 2:13
  */
 public class FileInputOutputStreamTest {
 

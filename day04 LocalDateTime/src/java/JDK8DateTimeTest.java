@@ -104,6 +104,7 @@ public class JDK8DateTimeTest {
     public void test3(){
 //        方式一：预定义的标准格式。如：ISO_LOCAL_DATE_TIME;ISO_LOCAL_DATE;ISO_LOCAL_TIME
         DateTimeFormatter formatter = DateTimeFormatter.ISO_LOCAL_DATE_TIME;
+
         //格式化:日期-->字符串
         LocalDateTime localDateTime = LocalDateTime.now();
         String str1 = formatter.format(localDateTime);
