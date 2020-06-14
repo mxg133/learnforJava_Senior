@@ -16,9 +16,6 @@ import java.io.*;
  * 二进制流持久地保存在磁盘上，或通过网络将这种二进制流传输到另一个网络节点。
  * 当其它程序获取了这种二进制流，就可以恢复成原来的Java对象。
 
- *
- * @author shkstart
- * @create 2019 上午 10:27
  */
 public class ObjectInputOutputStreamTest {
 

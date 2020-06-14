@@ -3,10 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/day01/day01.iml" filepath="$PROJECT_DIR$/day01/day01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day02/day02.iml" filepath="$PROJECT_DIR$/day02/day02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day03/day03.iml" filepath="$PROJECT_DIR$/day03/day03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day02 Thread/day02 Thread.iml" filepath="$PROJECT_DIR$/day02 Thread/day02 Thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03 String/day03 String.iml" filepath="$PROJECT_DIR$/day03 String/day03 String.iml" />
       <module fileurl="file://$PROJECT_DIR$/day04 LocalDateTime/day04 LocalDateTime.iml" filepath="$PROJECT_DIR$/day04 LocalDateTime/day04 LocalDateTime.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day05/day05.iml" filepath="$PROJECT_DIR$/day05/day05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day05 Enum Annotation/day05 Enum Annotation.iml" filepath="$PROJECT_DIR$/day05 Enum Annotation/day05 Enum Annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/day06 List Set/day06 List Set.iml" filepath="$PROJECT_DIR$/day06 List Set/day06 List Set.iml" />
       <module fileurl="file://$PROJECT_DIR$/day07 Map/day07 Map.iml" filepath="$PROJECT_DIR$/day07 Map/day07 Map.iml" />
       <module fileurl="file://$PROJECT_DIR$/day08 Generic File/day08 Generic File.iml" filepath="$PROJECT_DIR$/day08 Generic File/day08 Generic File.iml" />

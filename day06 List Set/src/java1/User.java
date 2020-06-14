@@ -1,9 +1,5 @@
 package java1;
 
-/**
- * @author shkstart
- * @create 2019 下午 3:56
- */
 public class User implements Comparable{
     private String name;
     private int age;
