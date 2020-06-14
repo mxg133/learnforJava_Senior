@@ -20,6 +20,11 @@ public class testObjectOutputStream {
 
             oos.writeObject(new String("我爱川普"));
             oos.flush();
+
+            oos.writeObject(new Person("自我", 23));
+            oos.flush();
+
+
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -42,9 +47,12 @@ public class testObjectOutputStream {
                     new FileInputStream("object1.dat")
             );
 
-            Object obj = ois.readObject();
-            String str = (String)obj;
+            String str = (String) ois.readObject();
+
+            Person p = (Person) ois.readObject();
+
             System.out.println(str);
+            System.out.println(p);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -60,8 +68,5 @@ public class testObjectOutputStream {
                 }
             }
         }
-
-
-
     }
 }

@@ -12,9 +12,6 @@ import java.io.Serializable;
  *
  * 补充：ObjectOutputStream和ObjectInputStream不能序列化static和transient修饰的成员变量
  *
- *
- * @author shkstart
- * @create 2019 上午 10:38
  */
 public class Person implements Serializable{
 
