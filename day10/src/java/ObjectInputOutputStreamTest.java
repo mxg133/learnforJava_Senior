@@ -15,7 +15,6 @@ import java.io.*;
  * 对象序列化机制允许把内存中的Java对象转换成平台无关的二进制流，从而允许把这种
  * 二进制流持久地保存在磁盘上，或通过网络将这种二进制流传输到另一个网络节点。
  * 当其它程序获取了这种二进制流，就可以恢复成原来的Java对象。
-
  */
 public class ObjectInputOutputStreamTest {
 
