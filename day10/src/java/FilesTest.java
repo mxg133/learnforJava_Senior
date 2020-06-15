@@ -11,8 +11,6 @@ import java.util.Iterator;
 
 /**
  * Files工具类的使用：操作文件或目录的工具类
- * @author shkstart
- * @create 2019 下午 2:44
  */
 public class FilesTest {
 
@@ -82,7 +80,6 @@ public class FilesTest {
 	 * StandardOpenOption.CREATE：如果要写出的文件不存在，则创建。如果存在，忽略
 	 * StandardOpenOption.CREATE_NEW：如果要写出的文件不存在，则创建。如果存在，抛异常
 	 *
-	 * @author shkstart 邮箱：shkstart@126.com
 	 * @throws IOException
 	 */
 	@Test
