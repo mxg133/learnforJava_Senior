@@ -59,9 +59,33 @@ public class RandomAccessFileTest {
     @Test
     public void test2() throws IOException {
         RandomAccessFile raf1 = new RandomAccessFile("hello.txt", "rw");
+//        raf1.seek(raf1.length());
+        raf1.seek(3);
         raf1.write("XYZ".getBytes());
 
         raf1.close();
+
+    }
+
+    @Test
+    public void test3() throws IOException {
+        RandomAccessFile raf1 = new RandomAccessFile("hello.txt", "rw");
+        raf1.seek(3);
+        StringBuilder builder = new StringBuilder((int)new File("hello.txt").length());
+        byte[] buffer = new byte[20];
+        int len;
+        while ((len = raf1.read(buffer)) != -1){
+            builder.append(new String(buffer, 0, len));
+
+        }
+
+        raf1.seek(3);
+        raf1.write("XYZ".getBytes());
+
+        raf1.write(builder.toString().getBytes());
+
+        raf1.close();
+
 
     }
 }
