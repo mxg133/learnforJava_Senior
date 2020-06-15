@@ -21,6 +21,7 @@ public class URLTest1 {
             urlConnection.connect();
 
             is = urlConnection.getInputStream();
+
             fos = new FileOutputStream("day10\\beauty3.jpg");
 
             byte[] buffer = new byte[1024];
