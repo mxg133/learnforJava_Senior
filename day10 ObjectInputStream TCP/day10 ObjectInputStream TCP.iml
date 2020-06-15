@@ -2,8 +2,8 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../day10 ObjectInputStream TCP">
-      <sourceFolder url="file://$MODULE_DIR$/../day10 ObjectInputStream TCP/src" isTestSource="false" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="9" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -18,5 +18,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="commons-io-2.5" level="project" />
+    <orderEntry type="library" name="commons-io-2.5 (2)" level="project" />
   </component>
 </module>
