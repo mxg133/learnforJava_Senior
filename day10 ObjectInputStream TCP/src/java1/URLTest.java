@@ -9,9 +9,6 @@ import java.net.URL;
  * 2.格式：
  *  http://localhost:8080/examples/beauty.jpg?username=Tom
  *  协议   主机名    端口号  资源地址           参数列表
- *
- * @author shkstart
- * @create 2019 下午 4:47
  */
 public class URLTest {
 
@@ -33,9 +30,6 @@ public class URLTest {
             System.out.println(url.getFile());
 //            public String getQuery(   )        获取该URL的查询名
             System.out.println(url.getQuery());
-
-
-
 
         } catch (MalformedURLException e) {
             e.printStackTrace();

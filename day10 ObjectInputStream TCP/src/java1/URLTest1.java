@@ -6,10 +6,6 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-/**
- * @author shkstart
- * @create 2019 下午 4:54
- */
 public class URLTest1 {
 
     public static void main(String[] args) {
@@ -56,11 +52,6 @@ public class URLTest1 {
                 urlConnection.disconnect();
             }
         }
-
-
-
-
-
 
     }
 }
