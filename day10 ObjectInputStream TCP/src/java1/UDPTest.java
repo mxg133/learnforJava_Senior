@@ -9,8 +9,6 @@ import java.net.InetAddress;
 
 /**
  * UDPd协议的网络编程
- * @author shkstart
- * @create 2019 下午 4:34
  */
 public class UDPTest {
 
@@ -19,8 +17,6 @@ public class UDPTest {
     public void sender() throws IOException {
 
         DatagramSocket socket = new DatagramSocket();
-
-
 
         String str = "我是UDP方式发送的导弹";
         byte[] data = str.getBytes();
