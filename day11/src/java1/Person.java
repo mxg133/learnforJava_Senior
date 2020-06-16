@@ -1,9 +1,5 @@
 package java1;
 
-/**
- * @author shkstart
- * @create 2019 下午 3:12
- */
 @MyAnnotation(value="hi")
 public class Person extends Creature<String> implements Comparable<String>,MyInterface{
 
