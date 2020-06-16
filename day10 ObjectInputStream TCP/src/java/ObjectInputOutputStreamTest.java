@@ -30,13 +30,13 @@ public class ObjectInputOutputStreamTest {
             //1.
             oos = new ObjectOutputStream(new FileOutputStream("object.dat"));
             //2.
-            oos.writeObject(new String("我爱北京天安门"));
+            oos.writeObject(new String("你在干嘛呀"));
             oos.flush();//刷新操作
 
-            oos.writeObject(new Person("王铭",23));
+            oos.writeObject(new Person("小王",23));
             oos.flush();
 
-            oos.writeObject(new Person("张学良",23,1001,new Account(5000)));
+            oos.writeObject(new Person("张就看",23,1001,new Account(5000)));
             oos.flush();
 
         } catch (IOException e) {
