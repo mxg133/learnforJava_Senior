@@ -7,8 +7,6 @@ import java.util.Properties;
 
 /**
  * 了解类的加载器
- * @author shkstart
- * @create 2019 下午 2:16
  */
 public class ClassLoaderTest {
 
