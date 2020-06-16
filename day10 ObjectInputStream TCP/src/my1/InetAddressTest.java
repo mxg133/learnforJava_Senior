@@ -24,6 +24,17 @@ public class InetAddressTest {
 
             System.out.println(inet2.getHostName());
             System.out.println(inet2.getHostAddress());
+
+
+            System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+            //获取本地ip
+            InetAddress i4 = InetAddress.getLocalHost();
+            System.out.println(inet4);
+
+            //getHostName()
+            System.out.println(i4.getHostName());
+            //getHostAddress()
+            System.out.println(i4.getHostAddress());
         } catch (UnknownHostException e) {
             e.printStackTrace();
         }

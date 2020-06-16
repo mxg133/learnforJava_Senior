@@ -68,9 +68,6 @@ public class TCPTest3 {
                     e.printStackTrace();
                 }
             }
-
-
-
         }
 
     }
