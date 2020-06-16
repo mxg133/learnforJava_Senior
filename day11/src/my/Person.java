@@ -1,6 +1,11 @@
-package java;
+package my;
 
+/**
+ * @author 孟享广
+ * @create 2020-06-16 10:41 上午
+ */
 public class Person {
+
 
     private String name;
     public int age;
@@ -51,4 +56,5 @@ public class Person {
         System.out.println("我的国籍是：" + nation);
         return nation;
     }
+
 }

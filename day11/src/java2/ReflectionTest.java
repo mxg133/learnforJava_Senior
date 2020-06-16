@@ -1,6 +1,6 @@
 package java2;
 
-import com.atguigu.java1.Person;
+import java1.Person;
 import org.junit.Test;
 
 import java.lang.reflect.Constructor;

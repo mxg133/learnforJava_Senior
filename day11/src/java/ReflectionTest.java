@@ -7,10 +7,6 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
-/**
- * @author shkstart
- * @create 2019 上午 10:38
- */
 public class ReflectionTest {
 
 
@@ -103,7 +99,7 @@ public class ReflectionTest {
         System.out.println(clazz2);
 
         //方式三：调用Class的静态方法：forName(String classPath)
-        Class clazz3 = Class.forName("com.atguigu.java.Person");
+        Class clazz3 = Class.forName("java.Person");
 //        clazz3 = Class.forName("java.lang.String");
         System.out.println(clazz3);
 
@@ -112,7 +108,7 @@ public class ReflectionTest {
 
         //方式四：使用类的加载器：ClassLoader  (了解)
         ClassLoader classLoader = ReflectionTest.class.getClassLoader();
-        Class clazz4 = classLoader.loadClass("com.atguigu.java.Person");
+        Class clazz4 = classLoader.loadClass("java.Person");
         System.out.println(clazz4);
 
         System.out.println(clazz1 == clazz4);
@@ -141,7 +137,7 @@ public class ReflectionTest {
         Class c10 = a.getClass();
         Class c11 = b.getClass();
         // 只要数组的元素类型与维度一样，就是同一个Class
-        System.out.println(c10 == c11);
+        System.out.println(c10 == c11);//true
 
     }
 }
