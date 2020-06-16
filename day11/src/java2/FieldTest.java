@@ -8,9 +8,6 @@ import java.lang.reflect.Modifier;
 
 /**
  * 获取当前运行时类的属性结构
- *
- * @author shkstart
- * @create 2019 下午 3:23
  */
 public class FieldTest {
 
@@ -20,7 +17,7 @@ public class FieldTest {
         Class clazz = Person.class;
 
         //获取属性结构
-        //getFields():获取当前运行时类及其父类中声明为public访问权限的属性
+        //getFields():获取当前运行时类及其父类中声明为 public 访问权限的属性
         Field[] fields = clazz.getFields();
         for(Field f : fields){
             System.out.println(f);
