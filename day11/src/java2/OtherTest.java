@@ -8,10 +8,6 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 
-/**
- * @author shkstart
- * @create 2019 下午 4:19
- */
 public class OtherTest {
 
     /*
