@@ -27,9 +27,6 @@ import java.util.function.Consumer;
  *   这样做可以检查它是否是一个函数式接口。
  *
  * 6. 所以以前用匿名实现类表示的现在都可以用Lambda表达式来写。
- *
- * @author shkstart
- * @create 2019 上午 11:40
  */
 public class LambdaTest1 {
     //语法格式一：无参，无返回值
@@ -157,7 +154,7 @@ public class LambdaTest1 {
 
         System.out.println("*****************************");
 
-        Comparator<Integer> com2 = (o1,o2) -> o1.compareTo(o2);
+        Comparator<Integer> com2 = (o1,o2) -> -o1.compareTo(o2);
 
         System.out.println(com2.compare(12,21));
 
