@@ -69,6 +69,5 @@ public class ProxyTest {
         System.out.println(belief);
         proxyInstance.eat("麻辣烫!");
 
-
     }
 }
