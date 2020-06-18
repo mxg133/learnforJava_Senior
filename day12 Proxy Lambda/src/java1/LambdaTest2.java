@@ -16,9 +16,6 @@ import java.util.function.Predicate;
  * 函数型接口 Function<T,R>   R apply(T t)
  * 断定型接口 Predicate<T>    boolean test(T t)
  *
- *
- * @author shkstart
- * @create 2019 下午 2:29
  */
 public class LambdaTest2 {
 
@@ -56,7 +53,7 @@ public class LambdaTest2 {
         System.out.println(filterStrs);
 
 
-        List<String> filterStrs1 = filterString(list,s -> s.contains("京"));
+        List<String> filterStrs1 = filterString(list, s -> s.contains("京"));
         System.out.println(filterStrs1);
     }
 
