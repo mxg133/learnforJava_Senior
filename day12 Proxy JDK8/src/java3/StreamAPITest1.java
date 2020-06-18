@@ -1,7 +1,7 @@
 package java3;
 
-import com.atguigu.java2.Employee;
-import com.atguigu.java2.EmployeeData;
+import java2.Employee;
+import java2.EmployeeData;
 import org.junit.Test;
 
 import java.util.ArrayList;
