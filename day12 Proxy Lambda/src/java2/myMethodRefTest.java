@@ -14,7 +14,7 @@ import java.util.function.Supplier;
  * @author 孟享广
  * @create 2020-06-19 9:17 上午
  */
-public class MethodRefTest1 {
+public class myMethodRefTest {
     @Test
     public void test1(){
         Consumer<String> con1 = str -> System.out.println(str);
