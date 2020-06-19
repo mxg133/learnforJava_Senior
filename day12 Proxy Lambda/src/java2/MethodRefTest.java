@@ -28,7 +28,6 @@ import java.util.function.Supplier;
  * 5. 方法引用使用的要求：要求接口中的抽象方法的形参列表和返回值类型与方法引用的方法的
  *    形参列表和返回值类型相同！（针对于情况1和情况2）
  *
- * Created by shkstart.
  */
 public class MethodRefTest {
 
@@ -58,7 +57,6 @@ public class MethodRefTest {
 		System.out.println("*******************");
 		Supplier<String> sup2 = emp::getName;
 		System.out.println(sup2.get());
-
 	}
 
 	// 情况二：类 :: 静态方法
