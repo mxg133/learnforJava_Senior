@@ -1,9 +1,5 @@
 package java4;
 
-/**
- * @author shkstart
- * @create 2019 下午 7:22
- */
 public class Boy {
     private Girl girl;
 
