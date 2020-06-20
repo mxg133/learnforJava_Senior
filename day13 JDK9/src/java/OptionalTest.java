@@ -4,10 +4,6 @@ import org.junit.Test;
 
 import java.util.Optional;
 
-/**
- * @author shkstart
- * @create 2019 上午 11:01
- */
 public class OptionalTest {
 
     @Test
