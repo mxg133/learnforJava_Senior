@@ -39,7 +39,8 @@ public class UDPTest {
 
         socket.receive(packet);
 
-        System.out.println(new String(packet.getData(),0,packet.getLength()));
+        String str = new String(packet.getData(), 0, packet.getLength());
+        System.out.println(str);
 
         socket.close();
     }

@@ -1,4 +1,4 @@
-package java3;
+package java3_StreamAPI;
 
 import java2.Employee;
 import java2.EmployeeData;
@@ -13,9 +13,6 @@ import java.util.stream.Stream;
 
 /**
  * 测试Stream的终止操作
- *
- * @author shkstart
- * @create 2019 下午 6:37
  */
 public class StreamAPITest2 {
 

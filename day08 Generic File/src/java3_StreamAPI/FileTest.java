@@ -1,4 +1,4 @@
-package java3;
+package java3_StreamAPI;
 
 import org.junit.Test;
 

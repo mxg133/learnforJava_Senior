@@ -1,4 +1,4 @@
-package java3;
+package java3_StreamAPI;
 
 import java2.Employee;
 import java2.EmployeeData;
