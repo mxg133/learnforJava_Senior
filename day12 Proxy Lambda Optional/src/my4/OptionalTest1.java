@@ -1,4 +1,4 @@
-package my;
+package my4;
 
 import org.junit.Test;
 
@@ -8,7 +8,7 @@ import java.util.Optional;
  * @author 孟享广
  * @create 2020-06-20 4:01 下午
  */
-public class OptionalTest {
+public class OptionalTest1 {
 
     @Test
     public void test1(){
