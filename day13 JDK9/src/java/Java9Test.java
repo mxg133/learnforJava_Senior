@@ -15,7 +15,7 @@ public class Java9Test {
     @Test
     public void test1() {
         try {
-            URL url = new URL("http://www.atguigu.com");
+            URL url = new URL("http://3.cn");
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
