@@ -14,7 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/day09 IO/day09 IO.iml" filepath="$PROJECT_DIR$/day09 IO/day09 IO.iml" />
       <module fileurl="file://$PROJECT_DIR$/day10 ObjectInputStream TCP/day10 ObjectInputStream TCP.iml" filepath="$PROJECT_DIR$/day10 ObjectInputStream TCP/day10 ObjectInputStream TCP.iml" />
       <module fileurl="file://$PROJECT_DIR$/day11 Reflection/day11 Reflection.iml" filepath="$PROJECT_DIR$/day11 Reflection/day11 Reflection.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day12 Proxy Lambda/day12 Proxy Lambda.iml" filepath="$PROJECT_DIR$/day12 Proxy Lambda/day12 Proxy Lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day12 Proxy Lambda Optional/day12 Proxy Lambda Optional.iml" filepath="$PROJECT_DIR$/day12 Proxy Lambda Optional/day12 Proxy Lambda Optional.iml" />
       <module fileurl="file://$PROJECT_DIR$/day13/day13.iml" filepath="$PROJECT_DIR$/day13/day13.iml" />
       <module fileurl="file://$PROJECT_DIR$/learnforJava_Senior.iml" filepath="$PROJECT_DIR$/learnforJava_Senior.iml" />
     </modules>
