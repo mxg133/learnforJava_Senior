@@ -1,5 +1,9 @@
-package java;
+package my;
 
+/**
+ * @author 孟享广
+ * @create 2020-06-21 12:10 下午
+ */
 public interface MyInterface {
     //如下的三个方法的权限修饰符都是public
     void methodAbstract();
