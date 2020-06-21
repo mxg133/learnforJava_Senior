@@ -79,6 +79,7 @@ public class Java9Test {
         //此时的资源属性是常量，声明为final的，不可修改
         InputStreamReader reader = new InputStreamReader(System.in);
         try (reader) {
+//        try (reader; writer) { 两个参数情况下
 
             char[] cbuf = new char[20];
             int len;
