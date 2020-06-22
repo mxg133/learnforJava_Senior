@@ -8,11 +8,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.*;
 
-/**
- * @author shkstart
- * @create 2019 下午 3:12
- */
-public class Java9Test1 {
+public class Java9Test1_Listof {
 
 
     //java8中的写法：
@@ -48,7 +44,7 @@ public class Java9Test1 {
 
     @Test
     public void test3() {
-        //此时得到的集合list也是一个只读集合。
+        //此时得到的集合list也是一个只读集合。`
         List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
         //报异常
         list.add(6);
@@ -86,7 +82,7 @@ public class Java9Test1 {
     public void test5() {
         ClassLoader cl = this.getClass().getClassLoader();
         try (InputStream is = cl.getResourceAsStream("hello.txt");
-             OutputStream os = new FileOutputStream("src\\hello1.txt")) {
+             OutputStream os = new FileOutputStream("hello1.txt")) {
             is.transferTo(os); // 把输入流中的所有数据直接自动地复制到输出流中
         } catch (IOException e) {
             e.printStackTrace();

@@ -12,7 +12,7 @@ import java.util.stream.Stream;
  * @author shkstart
  * @create 2019 下午 3:32
  */
-public class Java9Test2 {
+public class Java9Test2_StreamAPI {
 
     //java9新特性十：Stream API的加强
     @Test
