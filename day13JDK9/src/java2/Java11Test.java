@@ -1,6 +1,4 @@
-//package java2;
-//
-//import org.junit.Test;
+package java2;//import org.junit.Test;
 //
 //import java.io.IOException;
 //import java.net.URI;
