@@ -1,6 +1,6 @@
 package java2;
 
-import java1.Person;
+import java1_Java10.Person;
 import org.junit.Test;
 
 import java.lang.annotation.Annotation;

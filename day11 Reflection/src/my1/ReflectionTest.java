@@ -1,6 +1,6 @@
 package my1;
 
-import java1.Person;
+import java1_Java10.Person;
 import org.junit.Test;
 
 import java.lang.reflect.Field;

@@ -1,6 +1,6 @@
 package my;
 
-import java1.User;
+import java1_Java10.User;
 import org.junit.Test;
 
 import java.util.Iterator;
