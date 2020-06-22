@@ -8,7 +8,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.*;
 
-public class Java9Test1_Listof {
+public class Java9Test1_Listof_tranferTo {
 
 
     //java8中的写法：

@@ -9,10 +9,6 @@ package java2;//import org.junit.Test;
 //import java.util.concurrent.CompletableFuture;
 //import java.util.function.Consumer;
 //
-///**
-// * @author shkstart
-// * @create 2019 下午 5:09
-// */
 //public class Java11Test {
 //
 //    //java 11新特性一：String中新增的方法

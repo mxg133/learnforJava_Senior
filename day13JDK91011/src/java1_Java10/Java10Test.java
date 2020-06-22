@@ -8,6 +8,8 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Consumer;
+import java.util.function.Supplier;
 
 public class Java10Test {
 
@@ -42,13 +44,11 @@ public class Java10Test {
 //        var num;
 
         //2.lambda表示式中，左边的函数式接口不能声明为var
-//        Supplier<Double> sup = () -> Math.random();
-
+        Supplier<Double> sup = () -> Math.random();
 //        var sup = () -> Math.random();
 
         //3.方法引用中，左边的函数式接口不能声明为var
-//        Consumer<String> con = System.out::println;
-
+        Consumer<String> con = System.out::println;
 //        var con = System.out::println;
 
         //4.数组的静态初始化中，注意如下的情况也不可以
@@ -69,13 +69,12 @@ public class Java10Test {
 //            e.printStackTrace();
 //        }
 
-
     }
     //情况2：方法的返回类型
 //    public var method1(){
-//
 ////        return 0;
 //    }
+
     // 情况3：方法的参数类型
 //    public void method2(var num){
 //
