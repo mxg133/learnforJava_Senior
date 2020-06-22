@@ -1,7 +1,7 @@
 package my3;
 
-import java2.Employee;
-import java2.EmployeeData;
+import java2_Java11.Employee;
+import java2_Java11.EmployeeData;
 import org.junit.Test;
 
 import java.util.ArrayList;
