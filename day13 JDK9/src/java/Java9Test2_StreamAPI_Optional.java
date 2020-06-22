@@ -8,11 +8,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Stream;
 
-/**
- * @author shkstart
- * @create 2019 下午 3:32
- */
-public class Java9Test2_StreamAPI {
+public class Java9Test2_StreamAPI_Optional {
 
     //java9新特性十：Stream API的加强
     @Test
@@ -29,9 +25,11 @@ public class Java9Test2_StreamAPI {
         //of()参数中的多个元素，可以包含null值
         Stream<Integer> stream1 = Stream.of(1, 2, 3,null);
         stream1.forEach(System.out::println);
+
         //of()参数不能存储单个null值。否则，报异常
 //        Stream<Object> stream2 = Stream.of(null);
 //        stream2.forEach(System.out::println);
+
         Integer i = 10;
         i = null;
         //ofNullable()：形参变量是可以为null值的单个元素
@@ -42,12 +40,11 @@ public class Java9Test2_StreamAPI {
 
     @Test
     public void test3(){
-
-        Stream.iterate(0,x -> x + 1).limit(10).forEach(System.out::println);
-
+        //java8
+        Stream.iterate(0, x -> x + 1).limit(10).forEach(System.out::println);
 
         //java9中新增的重载的方法
-        Stream.iterate(0,x -> x < 100,x -> x + 1).forEach(System.out::println);
+        Stream.iterate(0, x -> x < 100, x -> x + 1).forEach(System.out::println);
     }
 
     //java9新特性十一：Optional提供了新的方法stream()
