@@ -17,8 +17,6 @@ import java.util.concurrent.ThreadPoolExecutor;
  *
  *
  * 面试题：创建多线程有几种方式？四种！
- * @author shkstart
- * @create 2019-02-15 下午 6:30
  */
 
 class NumberThread implements Runnable{

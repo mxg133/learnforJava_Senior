@@ -29,9 +29,6 @@ package java;
  *
  *  5.同步的方式，解决了线程的安全问题。---好处
  *    操作同步代码时，只能有一个线程参与，其他线程等待。相当于是一个单线程的过程，效率低。 ---局限性
- *
- * @author shkstart
- * @create 2019-02-13 下午 4:47
  */
 class Window1 implements Runnable{
 
