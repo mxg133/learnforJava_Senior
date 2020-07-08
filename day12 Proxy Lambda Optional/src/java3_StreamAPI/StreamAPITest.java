@@ -1,7 +1,7 @@
 package java3_StreamAPI;
 
-import java2_Java11.Employee;
-import java2_Java11.EmployeeData;
+import java2_Java11_Collection.Employee;
+import java2_Java11_Collection.EmployeeData;
 import org.junit.Test;
 
 import java.util.Arrays;
