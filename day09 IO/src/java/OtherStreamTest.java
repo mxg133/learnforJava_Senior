@@ -121,8 +121,6 @@ public class OtherStreamTest {
         dos.flush();
         //3.
         dos.close();
-
-
     }
     /*
     将文件中存储的基本数据类型变量和字符串读取到内存中，保存在变量中。
