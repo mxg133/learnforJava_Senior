@@ -1,4 +1,4 @@
-package java1_Java10;
+package java1_Java10_set;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package java;
+package java_list;
 
 import java.util.Objects;
 

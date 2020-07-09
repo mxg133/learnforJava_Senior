@@ -101,7 +101,7 @@ import java.util.*;
  * 遍历：keySet() / values() / entrySet()
  *
  */
-public class MapTest {
+public class  MapTest {
 
     /*
  元视图操作的方法：

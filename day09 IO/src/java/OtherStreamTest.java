@@ -65,9 +65,6 @@ public class OtherStreamTest {
 
     2.1 提供了一系列重载的print() 和 println()
     2.2 练习：
-
-
-
      */
 
     @Test
