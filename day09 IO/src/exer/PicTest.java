@@ -6,10 +6,6 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-/**
- * @author shkstart
- * @create 2019 下午 4:08
- */
 public class PicTest {
 
     //图片的加密
