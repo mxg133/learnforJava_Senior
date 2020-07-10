@@ -79,8 +79,6 @@ public class FilesTest {
 	 * StandardOpenOption.WRITE：表示对应的Channel是可写的。
 	 * StandardOpenOption.CREATE：如果要写出的文件不存在，则创建。如果存在，忽略
 	 * StandardOpenOption.CREATE_NEW：如果要写出的文件不存在，则创建。如果存在，抛异常
-	 *
-	 * @throws IOException
 	 */
 	@Test
 	public void test3() throws IOException{

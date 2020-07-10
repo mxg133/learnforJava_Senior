@@ -7,7 +7,7 @@ import java.util.Random;
 /**
  * 通过发射创建对应的运行时类的对象
  */
-public class NewInstanceTest {
+public class  NewInstanceTest {
 
     @Test
     public void test1() throws IllegalAccessException, InstantiationException {
