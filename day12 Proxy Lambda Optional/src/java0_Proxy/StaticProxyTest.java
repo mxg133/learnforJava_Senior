@@ -1,4 +1,4 @@
-package java;
+package java0_Proxy;
 
 /**
  * 静态代理举例

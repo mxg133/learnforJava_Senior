@@ -1,4 +1,4 @@
-package java;
+package java0_Proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

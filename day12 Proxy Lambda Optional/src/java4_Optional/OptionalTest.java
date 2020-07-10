@@ -101,7 +101,23 @@ Optional.ofNullable(T t)：t可以为null
         System.out.println(girlName);
 
     }
+    @Test
+    public void test6(){
+        String str1 = "beijing";
+//        str1 = null;
+        Optional<String> opt1 = Optional.of(str1);
+        String str = opt1.get();
+        System.out.println(str);
 
+    }
+    @Test
+    public void test7(){
+        String str1 = "beijing";
+        Optional<String> opt1 = Optional.ofNullable(str1);
+        String str2 = opt1.orElse("shanghai");
+        //保证不会输出空指针
+        System.out.println(str2);
 
+    }
 
 }
